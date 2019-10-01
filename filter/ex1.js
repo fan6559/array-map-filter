@@ -10,9 +10,14 @@ Sortie attendue:
   [7, 2, 0, 3, 11]
 
  */
+const getPositiveNumbers = [7, -4, 2, 0, -10, 3, 11];
+const nul = getPositiveNumbers.filter(price => price > 0);
 
-function getPositiveNumbers(numbers) {
-}
+console.log('input array:', getPositiveNumbers);
+console.log('valid prices array:', nul);
+
+
+
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
 // mais alors, il faut alors lancer l'exercice avec node filter/ex1

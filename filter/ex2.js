@@ -23,8 +23,12 @@ Sortie attendue:
 
  */
 
-function keepStarks(names) {
-}
+const keepStarks = ['Bran Stark', 'Cersei Lannister', 'Sandor Clegane', 'Arya Stark', 'Yara Greyjoy', 'Sansa Stark'];
+    const filterItems = (letters) => {
+        return keepStarks.filter(keepStarks => keepStarks.indexOf(letters) > -1);
+    } 
+
+    console.log(filterItems('rk'));
 
 // Ne pas modifier l'export
 module.exports = keepStarks;
